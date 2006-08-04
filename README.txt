@@ -3,7 +3,7 @@ yet realistic data. It is especially useful for testing PHP scripts and applicat
 
 A wiki for databug has been established at databug.pbwiki.com. The password is 
 available through mushpup.org (http://mushpup.org/ : site:databug.pbwiki.com > 
-secret word:databug).
+secret word:databug [left-10]).
 
 Databug Links
 ------------
