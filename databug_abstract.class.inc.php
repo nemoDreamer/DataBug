@@ -134,7 +134,7 @@ class DatabugAbstract
 	{
 		// DATA
 		
-			$_driver = $this->root . 'extra_functions\_driver.inc.php';
+			$_driver = $this->root . 'extra_functions/_driver.inc.php';
 		
 		
 		// MANIPULATE
@@ -592,7 +592,7 @@ class DatabugAbstract
 	
 	
 	/**
-	 * normalizes gender to int value (female = 1, male = 2)
+	 * converts integer (eg, 2) to ordinal (eg, 2nd)
 	 *
 	 * @access public
 	 * @return void
@@ -640,7 +640,7 @@ class DatabugAbstract
 				}
 			}
 
-    	$ordinal = "${number}<SUP>$suffix</SUP>";
+    	$ordinal = "${number}<sup>$suffix</sup>";
 		
 		// RETURN
 		
